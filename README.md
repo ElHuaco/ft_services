@@ -167,6 +167,7 @@ externos (cloud) para DBs.
 
 - ¿FTPS?
 - Comprobación persistencia mysql y influxdb
+- ssh-keygen -R IP
 
 General instructions
 General instructions
