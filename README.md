@@ -166,6 +166,7 @@ externos (cloud) para DBs.
 
 
 - ¿FTPS? -> curl ftp://ID:PW@IP/PATH -T [upload filename]; curl ftp://ID:PW@IP/PATH/File -o [download file name]
+- ssh-keygen -R IP
 
 General instructions
 General instructions
