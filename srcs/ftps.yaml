@@ -13,6 +13,18 @@ spec:
     port: 21
     protocol: TCP
     targetPort: 21
+  - name: psv1
+    port: 30022
+    protocol: TCP
+    targetPort: 30022
+  - name: psv2
+    port: 30023
+    protocol: TCP
+    targetPort: 30023
+  - name: psv3
+    port: 30024
+    protocol: TCP
+    targetPort: 30024
   selector:
     app: ftps
   type: LoadBalancer
@@ -40,5 +52,8 @@ spec:
         imagePullPolicy: Never
         name: ftps
         ports:
+        - containerPort: 20
         - containerPort: 21
-        - containerPort: 30021
+        - containerPort: 30022
+        - containerPort: 30023
+        - containerPort: 30024
