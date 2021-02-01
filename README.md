@@ -165,8 +165,7 @@ Los Volumes locales no cumplen 2 y 3 => Mejor Volumes
 externos (cloud) para DBs.
 
 
-- ¿FTPS?
-- Comprobación persistencia mysql y influxdb
+- ¿FTPS? -> curl ftp://ID:PW@IP/PATH -T [upload filename]; curl ftp://ID:PW@IP/PATH/File -o [download file name]
 
 General instructions
 General instructions
