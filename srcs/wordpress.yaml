@@ -41,3 +41,4 @@ spec:
         name: wordpress
         ports:
         - containerPort: 5050  
+      restartPolicy: Always

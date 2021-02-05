@@ -20,4 +20,4 @@ RUN chmod +x /run.sh
 CMD sh ./run.sh
 
 # Expose port 21 for ftps comunication
-EXPOSE 21 30021
+EXPOSE 21 30022 30023 30024 30025 30026 30027

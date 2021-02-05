@@ -25,6 +25,19 @@ spec:
     port: 30024
     protocol: TCP
     targetPort: 30024
+  - name: psv4
+    port: 30025
+    protocol: TCP
+    targetPort: 30025
+  - name: psv5
+    port: 30026
+    protocol: TCP
+    targetPort: 30026
+  - name: psv6
+    port: 30027
+    protocol: TCP
+    targetPort: 30027
+
   selector:
     app: ftps
   type: LoadBalancer
@@ -57,3 +70,7 @@ spec:
         - containerPort: 30022
         - containerPort: 30023
         - containerPort: 30024
+        - containerPort: 30025
+        - containerPort: 30026
+        - containerPort: 30027
+    restartPolicy: Always
