@@ -73,4 +73,4 @@ spec:
         - containerPort: 30025
         - containerPort: 30026
         - containerPort: 30027
-    restartPolicy: Always
+      restartPolicy: Always
